@@ -12,6 +12,10 @@ spec:
   project: default
   source:
     chart: nginx
+#     helm:
+#       values: |
+#         service:
+#           type: ClusterIP
     repoURL: https://charts.bitnami.com/bitnami
     targetRevision: 9.9.7
   syncPolicy:
